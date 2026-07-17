@@ -13,8 +13,8 @@
 // @grant        none
 // @match        *://*/*
 // @icon         https://icons.iconarchive.com/icons/github/octicons/256/shield-x-16-icon.png
-// @supportURL   https://greasyfork.org/users/Luciano.Oliveirals
-// @homepageURL  https://greasyfork.org/users/Luciano.Oliveirals
+// @supportURL   https://greasyfork.org/scripts/587457-bloqueador-de-recaptcha
+// @homepageURL  https://github.com/LucianoSkx/recaptcha-blocker
 // ==/UserScript==
 
 (function() {
