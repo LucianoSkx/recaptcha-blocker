@@ -7,7 +7,7 @@
 // @description  Remove/bloqueia o widget do reCAPTCHA em todos os sites. O checkbox, iframes e scripts do Google reCAPTCHA são impedidos de carregar.
 // @description:en  Removes/blocks the reCAPTCHA widget on all websites. The checkbox, iframes and scripts from Google reCAPTCHA are prevented from loading.
 // @description:pt-BR  Remove/bloqueia o widget do reCAPTCHA em todos os sites. O checkbox, iframes e scripts do Google reCAPTCHA são impedidos de carregar.
-// @author       13
+// @author       Luciano.Oliveirals
 // @license      MIT
 // @run-at       document-start
 // @grant        none
