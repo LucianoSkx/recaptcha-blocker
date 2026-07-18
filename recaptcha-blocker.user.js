@@ -2,7 +2,7 @@
 // @name         Bloqueador de reCAPTCHA
 // @name:en      reCAPTCHA Blocker
 // @name:pt-BR   Bloqueador de reCAPTCHA
-// @namespace    https://greasyfork.org/users/Luciano.Oliveirals
+// @namespace    https://github.com/LucianoSkx/recaptcha-blocker
 // @version      1.0.0
 // @description  Remove/bloqueia o widget do reCAPTCHA em todos os sites. O checkbox, iframes e scripts do Google reCAPTCHA são impedidos de carregar.
 // @description:en  Removes/blocks the reCAPTCHA widget on all websites. The checkbox, iframes and scripts from Google reCAPTCHA are prevented from loading.
