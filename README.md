@@ -15,10 +15,15 @@ Or copy the contents of `recaptcha-blocker.user.js` into a new script in your us
 
 ## How it works / Como funciona
 
-- Runs at `document-start` to catch reCAPTCHA elements early
-- Removes reCAPTCHA `<script>`, `<iframe>`, and `<div>` elements (`.g-recaptcha`, `.grecaptcha-badge`, etc.)
-- Uses `MutationObserver` to eliminate dynamically added reCAPTCHA elements
-- Works on all domains (`*://*/*`)
+- **Runs at `document-start`** / Executa no `document-start` — to catch reCAPTCHA elements early / para capturar elementos do reCAPTCHA no início
+- **Removes reCAPTCHA elements** / Remove elementos do reCAPTCHA — `<script>`, `<iframe>`, and `<div>` elements (`.g-recaptcha`, `.grecaptcha-badge`, etc.) / elementos `<script>`, `<iframe>` e `<div>`
+- **Uses `MutationObserver`** / Usa `MutationObserver` — to eliminate dynamically added reCAPTCHA elements / para eliminar elementos do reCAPTCHA adicionados dinamicamente
+- **Works on all domains** / Funciona em todos os domínios — (`*://*/*`)
+
+## Notes / Observações
+
+- This script only blocks the **widget/checkbox**. Some sites may also use reCAPTCHA v3 (invisible), which runs in the background. / Este script bloqueia apenas o **widget/checkbox**. Alguns sites podem também usar reCAPTCHA v3 (invisível), que executa em segundo plano.
+- If a form requires reCAPTCHA to submit, it may fail after blocking. / Se um formulário exigir reCAPTCHA para enviar, pode falhar após o bloqueio.
 
 ## License / Licença
 
